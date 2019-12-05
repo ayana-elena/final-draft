@@ -1,0 +1,67 @@
+.grid {
+	border: 4px SteelBlue;
+	grid-gap: 10px;
+	display: grid;
+	background-color: DarkSeaGreen;
+	padding: 10px;
+	height: 1820px;
+	width: 100%;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-template-rows: 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px 140px;
+}
+
+.a {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.b {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+
+.c {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	font-size: 25px;
+
+}
+
+.d {
+	
+	grid-column-start: 1;
+	grid-column-end: 13;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	font-size: 20px;
+}
+
+.e {
+	
+	grid-column-start: 5;
+	grid-column-end: 13;
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+.box {
+  background-color: LightSteelBlue;
+  color: white;
+  border-radius: 5px;
+  border: 2px SteelBlue;
+}
+
+.btn-group button {
+	background-color: lightslategrey;
+	border: 1px white;
+	color: white;
+	padding: 10px 24px;
+	cursor: pointer;
+	float: center-left;
+}
